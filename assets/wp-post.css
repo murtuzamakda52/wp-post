@@ -1,0 +1,107 @@
+.qa-title{
+	font-size: 40px;
+   text-align: center;
+   padding: 10px 0px;
+   font-family: system-ui;
+   height: 200px;
+   color: white;
+   background-color: #253372;
+}
+
+.qa-question{
+   margin-right: 15%;
+   margin-left: 15%;
+   font-family: system-ui;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+.qa-answer{
+   margin-right: 15%;
+   margin-left: 15%;
+   font-family: system-ui;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+.braker{
+   background-color: #b30000;
+   height: 40px;
+}
+.braker > center{
+   color: white;
+   font-size: 25px;
+   font-weight: 600;
+}
+
+pre{
+   background: #f8f8f8;
+   padding: 15px !important;
+   overflow: hidden !important;
+}
+
+pre > code{
+   font-size: medium;
+   overflow: hidden !important;
+}
+
+body{
+   background: white !important;
+}
+
+.post-tags{
+    text-align: center;
+}
+a{
+    border-bottom: 0px !important;
+}
+.post-tags > a{
+    padding: 10px;
+    background-color: #253372;
+    border-radius: 25px;
+    margin-left: 10px;
+    color: white;
+}
+.post-tags > a:hover{
+   background-color: #b30000 !important;
+   color: white;
+}
+.post-tags > a:focus{
+   color: white;
+}
+.single-post{
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.single-post:hover{
+    background-color: #999;
+}
+.single-post > h2 >a:hover{
+    color: white !important;
+}
+.center-text{
+    text-align: center;
+}
+.pagination{
+    text-align: center;
+    margin-top: 50px;
+}
+.pagination > a{
+    margin: 30px;
+    background-color: #253372;
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
+
+
+}
+.current{
+    margin: 30px;
+    background-color: #b30000 !important;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+}
+.tagged-posts{
+	width:60%;
+	margin:auto;
+}
